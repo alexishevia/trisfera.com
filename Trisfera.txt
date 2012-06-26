@@ -1,0 +1,25 @@
+Trisfera Site
+
+==Comunidad==
+- Facebook: eventos, comunicaciones. Halar eventos de FB para mostrar.
+  - Montar las reuniones: Fecha Próxima Reunión!!
+- Twitter
+- Blog: comunicaciones.
+
+
+==Colabora==
+- Github: Colaboración.
+  - Perfil de cada proyecto de Github y el link.
+
+
+==Guías==
+- Talleres en p2pU y link hacia allá.: aquí hay libros, aquí hay videos. Guía para encontrar información.
+- Youtube
+
+
+==Footer==
+que es trisfera
+como entro
+que proyecto me interesa
+entro.
+- Contacto: Información de Contacto.
