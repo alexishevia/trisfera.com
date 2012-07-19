@@ -1,14 +1,3 @@
-/* GENERAL - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
-html, body 
-{
-	margin: 0;
-	padding: 0;
-}
-#page-container
-{
-	width: 960px;
-	margin: auto;
-}
 
 /* TOP BAR * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
 #top-bar
@@ -17,33 +6,22 @@ html, body
 	background:url(../images/top-bar.png);
 	color: white;
 }
-
-/* BANNER * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
-#banner
-{
-	height: 135px;/*180px;*/
-	background:url(../images/banner.png);
-	background-position: 50% 50%;
-	background-repeat:no-repeat;
+#banner img{
+	display: block;
+	margin: 0 auto;
 }
+
+
 
 /* CONTENT * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
-#content
-{
-	
-}
+
 .section-v /* Secciones verticales*/
 {
-	float:left;
-	width:320px;
-	height:400px;	
+
+	height:400px;
+	padding:2px;	
 }
-.section-h /* Secciones horizontales */
-{
-	float:left;
-	width:100%;
-	height:150px;
-}
+
 .section-v-title
 {	
 	height:35px;
@@ -51,55 +29,51 @@ html, body
 .section-v-content
 {
 	padding: 15px 15px 10px 15px;
-	height:365px;
+	min-height:300px;
+	
 }
-#section-1
+#section-1 .section-v-content
 {
-	background:url(../images/section-1.png);
+	border:solid 5px #BD9FC4;
+	background:#F2E7F2;
+	
 }
-	#section-1:hover
-	{
-		background:url(../images/section-1_hover.png);
-	}
+#section-2 .section-v-content
+{
+	border:solid 5px #AFDDE9;
+	background:#F0F8FB;
+}
+#section-3 .section-v-content
+{
+	border:solid 5px #D7EFC8;
+	background:#F4FAEF;
+	
+}
 	#section-1 .section-v-title
 	{
-		background:url(../images/section-1_title.png);
+		background:url(../images/section-1_title.png) no-repeat;
 	}
-#section-2
-{
-	background:url(../images/section-2.png);
-}
-	#section-2:hover
-	{
-		background:url(../images/section-2_hover.png);
-	}
+
+
 	#section-2 .section-v-title
 	{
-		background:url(../images/section-2_title.png);
+		background:url(../images/section-2_title.png) no-repeat;
 	}
-#section-3
-{
-	background:url(../images/section-3.png);
-	/*background: green;*/
-}
-	#section-3:hover
-	{
-		background:url(../images/section-3_hover.png);
-	}
+
 
 	#section-3 .section-v-title
 	{
-		background:url(../images/section-3_title.png);
+		background:url(../images/section-3_title.png) no-repeat;
 	}
 #section-4
 {
-	background:url(../images/section-4.png);
-	/*background: cyan;*/
+	background:url(../images/section-4.png) no-repeat;
+	
 }
 .element
 {
 	margin: 10px 0px 0px 0px;
-	width:290px;
+	
 	height:40px;
 }
 .element:hover
@@ -113,9 +87,8 @@ html, body
 	height:40px;
 }
 .element-description
-{	/*background:red;*/
+{	
 	float:left;
-	width:245px;
 	height:35px;
 	color:gray;
 	margin: 5px 0px 0px 0px;
@@ -125,11 +98,11 @@ html, body
 }
 #section-1 .element
 {
-	background:url(../images/section-1_element.png);
+	background:url(../images/section-1_element.png) no-repeat;
 }
 #section-1 .element:hover
 {
-	background:url(../images/section-1_element_hover.png);
+	background:url(../images/section-1_element_hover.png) no-repeat;
 }
 
 #facebook .element-icon
@@ -150,28 +123,18 @@ html, body
 
 #section-2 .element
 {
-	background:url(../images/section-2_element.png);
+	background:url(../images/section-2_element.png) no-repeat;
 }
 #section-2 .element:hover
 {
-	background:url(../images/section-1_element_hover.png);
+	background:url(../images/section-1_element_hover.png) no-repeat;
 }
 #section-3 .element
 {
-	background:url(../images/section-3_element.png);
+	background:url(../images/section-3_element.png) no-repeat;
 }
 #section-3 .element:hover
 {
-	background:url(../images/section-1_element_hover.png);
+	background:url(../images/section-1_element_hover.png) no-repeat;
 }
 
-
-
-/* FOOTER * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
-#footer
-{
-	clear:both;
-	height: 66px;
-	background:url(../images/top-bar.png);
-	color:white;
-}
