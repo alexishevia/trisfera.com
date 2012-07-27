@@ -32,38 +32,38 @@
 	min-height:300px;
 	
 }
-#section-1 .section-v-content
+#section-comunidad .section-v-content
 {
 	border:solid 5px #BD9FC4;
 	background:#F2E7F2;
 	
 }
-#section-2 .section-v-content
+#section-proyectos .section-v-content
 {
 	border:solid 5px #AFDDE9;
 	background:#F0F8FB;
 }
-#section-3 .section-v-content
+#section-guias .section-v-content
 {
 	border:solid 5px #D7EFC8;
 	background:#F4FAEF;
 	
 }
-	#section-1 .section-v-title
+	#section-comunidad .section-v-title
 	{
-		background:url(../images/section-1_title.png) no-repeat;
+		background:url(../images/section-comunidad_title.png) no-repeat;
 	}
 
 
-	#section-2 .section-v-title
+	#section-proyectos .section-v-title
 	{
-		background:url(../images/section-2_title.png) no-repeat;
+		background:url(../images/section-proyectos_title.png) no-repeat;
 	}
 
 
-	#section-3 .section-v-title
+	#section-guias .section-v-title
 	{
-		background:url(../images/section-3_title.png) no-repeat;
+		background:url(../images/section-guias_title.png) no-repeat;
 	}
 #section-4
 {
@@ -96,13 +96,13 @@
 	font-family:tahoma;
 
 }
-#section-1 .element
+#section-comunidad .element
 {
-	background:url(../images/section-1_element.png) no-repeat;
+	background:url(../images/section-comunidad_element.png) no-repeat;
 }
-#section-1 .element:hover
+#section-comunidad .element:hover
 {
-	background:url(../images/section-1_element_hover.png) no-repeat;
+	background:url(../images/section-comunidad_element_hover.png) no-repeat;
 }
 
 #facebook .element-icon
@@ -121,20 +121,20 @@
 	background-repeat:no-repeat;
 }
 
-#section-2 .element
+#section-proyectos .element
 {
-	background:url(../images/section-2_element.png) no-repeat;
+	background:url(../images/section-proyectos_element.png) no-repeat;
 }
-#section-2 .element:hover
+#section-proyectos .element:hover
 {
-	background:url(../images/section-1_element_hover.png) no-repeat;
+	background:url(../images/section-comunidad_element_hover.png) no-repeat;
 }
-#section-3 .element
+#section-guias .element
 {
-	background:url(../images/section-3_element.png) no-repeat;
+	background:url(../images/section-guias_element.png) no-repeat;
 }
-#section-3 .element:hover
+#section-guias .element:hover
 {
-	background:url(../images/section-1_element_hover.png) no-repeat;
+	background:url(../images/section-comunidad_element_hover.png) no-repeat;
 }
 
