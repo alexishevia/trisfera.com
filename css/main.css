@@ -6,7 +6,13 @@
 	background:url(../images/top-bar.png);
 	color: white;
 }
-#banner img{
+
+header {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#banner {
 	display: block;
 	margin: 0 auto;
 }
@@ -49,22 +55,7 @@
 	background:#F4FAEF;
 	
 }
-	#section-comunidad .section-v-title
-	{
-		background:url(../images/section-comunidad_title.png) no-repeat;
-	}
 
-
-	#section-proyectos .section-v-title
-	{
-		background:url(../images/section-proyectos_title.png) no-repeat;
-	}
-
-
-	#section-guias .section-v-title
-	{
-		background:url(../images/section-guias_title.png) no-repeat;
-	}
 #section-4
 {
 	background:url(../images/section-4.png) no-repeat;

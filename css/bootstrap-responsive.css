@@ -808,6 +808,7 @@
 }
 
 @media (min-width: 980px) {
+  .container-fluid{max-width:980px; margin: 0 auto;} 
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
