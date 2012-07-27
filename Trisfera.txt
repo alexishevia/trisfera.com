@@ -9,12 +9,15 @@ Trisfera Site
 
 ==Colabora==
 - Github: Colaboración.
-  - Perfil de cada proyecto de Github y el link.
+  -Perfil de cada proyecto de Github y el link (https://github.com/Trisfera)
+  -La Vaca Lechera (http://trisfera.com/vacalechera/)
 
 
 ==Guías==
 - Talleres en p2pU y link hacia allá.: aquí hay libros, aquí hay videos. Guía para encontrar información.
-- Youtube
+    -Summer Camp (http://trisfera.com/camp/)
+- Youtube (http://www.youtube.com/user/trisfera)
+    -Cómo funciona una aplicación web? (http://www.youtube.com/watch?v=g8jtbIiD05I&feature=plcp)
 
 
 ==Footer==
