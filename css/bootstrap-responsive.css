@@ -687,16 +687,16 @@
   .navbar-fixed-bottom {
     position: static;
   }
-  .navbar-fixed-top {
-    margin-bottom: 18px;
-  }
+  /*.navbar-fixed-top {
+    margin-bottom: 18px;  
+  }Pequeño ajuste que considero que se ve mejor*/
   .navbar-fixed-bottom {
     margin-top: 18px;
   }
-  .navbar-fixed-top .navbar-inner,
+  /*.navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
-  }
+    padding: 5px; 
+  }Pequeño ajuste que considero que se ve mejor*/
   .navbar .container {
     width: auto;
     padding: 0;
