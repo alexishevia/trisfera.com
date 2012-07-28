@@ -1,0 +1,25 @@
+* Ayudar a las personas interesadas en aprender sobre el mundo de desarrollo web
+* Crear aplicaciones web interesantes, útiles y originales 
+* Minimizar en lo posible los requerimientos para participar, esto incluye:
+    * Poder iniciar en el grupo sin conocimientos previos, siempre y cuando exista el interés de aprender
+    * Poder colaborar en el grupo de manera gratuita, esto implica no incurrir en gastos de software o licencias. Sin embargo, se asume que para participar en el grupo se necesita de una computadora y acceso a Internet.
+    * Poder *colaborar* en el grupo en cualquier horario y espacio geográfico.
+
+Con *colaborar* se entiende:
+
+* Tener acceso a la información y código fuente manejado por el grupo
+* Ser capaz de opinar en las discusiones del grupo
+* Poder enviar código para que sea considerado a incluirse en los proyectos
+
+
+----------------------------------------
+
+Trisfera es una comunidad conformada por personas apasionadas por el desarrollo web y los principios de software libre.
+
+Entre nuestros objetivos se encuentran:
+
+    Hacer crecer la comunidad de desarrollo web de Panamá
+    Impulsar el uso de Tecnologías Libres
+    Impulsar la Educación Libre.
+
+
