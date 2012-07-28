@@ -32,9 +32,9 @@ Quieres colaborar?
 Estos son los pasos a aseguir:
 
 - Haz un Fork
-- Clona el proyecto en tu máquina
-- Modifica/crea los archivos para realizar tu aporte
-- Haz un Pull Request
+- Clona el proyecto (que se encuentra en tu Fork) a tu máquina
+- Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
+- Haz un Pull Request para integrar tus cambios a este repositorio
 
 Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
 
