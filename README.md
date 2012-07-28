@@ -36,7 +36,7 @@ Estos son los pasos a aseguir:
 - Modifica/crea los archivos para realizar tu aporte
 - Haz un Pull Request
 
-Para hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
+Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
 
 Tienes algún Bug o Feature Request?
 -----------------------------------
