@@ -41,6 +41,6 @@ Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://githu
 Tienes algún Bug o Feature Request?
 -----------------------------------
 
-Por favor añadelo en los [issues del repositorio] (https://github.com/Trisfera/PaginaTrisfera/issues).
+Por favor añádelo en los [issues del repositorio] (https://github.com/Trisfera/PaginaTrisfera/issues).
 Si tienes dudas de cómo hacer esto, o si quieres preguntarnos algo lo puedes hacer por medio de [twitter](https://twitter.com/Trisfera) o por [facebook](https://www.facebook.com/groups/trisfera/)
 
