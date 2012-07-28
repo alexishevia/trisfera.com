@@ -3,6 +3,13 @@ Página de Trisfera
 
 Esta es la nueva página de Trisfera para el 2012.
 
+Qué queremos lograr?
+------------------
+
+Queremos lograr una página simple, atractiva y con responsive design.
+
+El objetivo de la página es tener en un solo lugar todo lo necesario para colaborar con Trisfera.
+
 En qué está hecha?
 ------------------
 
@@ -13,6 +20,29 @@ Para darle estructura y estilo a la página estamos utilizando [Bootstrap de Twi
 El pajarito de twitter lo pueden encontrar [aquí](http://www.way2blogging.org/2011/04/add-animated-flying-twitter-bird-widget.html)
 
 El profile widget para twitter que presenta los últimos tweets lo pueden encontrar [aquí](https://twitter.com/about/resources/widgets/widget_profile)
+
+Quieres bajar este proyecto a tu máquina?
+-----------------------------------------
+
+Esto es lo que tienes que hacer:
+
+- Crea tu cuenta en Github
+- Baja e instala el cliente de Git
+
+Quieres correr este proyecto en tu máquina?
+-------------------------------------------
+
+Este proyecto es una página web sencilla. Solo tienes que darle doble click al archivo index.html que se encuentra en la carpeta raíz del proyecto.
+
+Quieres colaborar?
+------------------
+
+Estos son los pasos a aseguir:
+
+- Haz un Fork
+- Clona el proyecto en tu máquina
+- Modifica/crea los archivos para realizar tu aporte
+- Haz un Pull Request
 
 Tienes algún Bug o Feature Request?
 -----------------------------------
