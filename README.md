@@ -21,14 +21,6 @@ El pajarito de twitter lo pueden encontrar [aquí](http://www.way2blogging.org/2
 
 El profile widget para twitter que presenta los últimos tweets lo pueden encontrar [aquí](https://twitter.com/about/resources/widgets/widget_profile)
 
-Quieres bajar este proyecto a tu máquina?
------------------------------------------
-
-Esto es lo que tienes que hacer:
-
-- Crea tu cuenta en Github
-- Baja e instala el cliente de Git
-
 Quieres correr este proyecto en tu máquina?
 -------------------------------------------
 
