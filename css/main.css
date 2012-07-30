@@ -41,7 +41,7 @@ header
 .section-v /* Secciones verticales*/
 {
 
-	height:400px;
+	/*height:435px;*/
 	padding:2px;	
 }
 
@@ -52,7 +52,9 @@ header
 .section-v-content
 {
 	padding: 15px 15px 10px 15px;
-	min-height:300px;
+	margin-bottom:15px;
+	min-height:340px;
+	/*height: 350px;*/
 	
 }
 #section-comunidad .section-v-content
