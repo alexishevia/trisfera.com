@@ -34,10 +34,92 @@ header
 
 .banner-description
 {
+    font-size: 15px;
     text-align:center;
-    margin-top:5px;
-    color:#626262;
+    margin-top:8px;
+    color: #626262;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px #AFDDE9;
+    /*border:solid 5px #BD9FC4;
+	background:#F2E7F2;
+
+	border:solid 5px #AFDDE9;
+	background:#F0F8FB;
+
+	*/
+
 }
+
+.section-v-content ul
+{
+	padding:0px;
+	margin:0px;
+}
+
+.section-v-content ul a
+{
+	color: #333;
+	font-size:14px
+
+}
+
+.section-v-content ul a:hover
+{
+	text-decoration:none;
+}
+
+.section-v-content li
+{
+	display: block;
+	text-decoration: none;
+	padding:5px 5px 5px 15px;
+	margin: 0px 0px 10px 0px;
+		
+	background:transparent;
+}
+
+#section-proyectos .section-v-content li
+{
+	border: 1px solid #AFDDE9;
+  	-webkit-border-radius: 4px 4px 4px 4px;
+    	-moz-border-radius: 4px 4px 4px 4px;
+    		border-radius: 4px 4px 4px 4px;
+
+}
+#section-proyectos .section-v-content li:hover
+{
+	background:#AFDDE9;
+	color: white;
+
+}
+#section-guias .section-v-content li
+{
+	border: 1px solid #D7EFC8;
+  	-webkit-border-radius: 4px 4px 4px 4px;
+    	-moz-border-radius: 4px 4px 4px 4px;
+    		border-radius: 4px 4px 4px 4px;
+
+}
+#section-guias .section-v-content li:hover
+{
+	background:#D7EFC8;
+	color: white;
+}
+#section-comunidad .section-v-content li
+{
+	border: 1px solid #BD9FC4;
+  	-webkit-border-radius: 4px 4px 4px 4px;
+    	-moz-border-radius: 4px 4px 4px 4px;
+    		border-radius: 4px 4px 4px 4px;
+
+}
+#section-comunidad .section-v-content li:hover
+{
+	background:#BD9FC4;
+	color: white;
+}
+
+
 
 
 
@@ -60,7 +142,7 @@ header
 {
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
-	min-height:340px;
+	min-height:315px;
 	/*height: 350px;*/
 	
 }
