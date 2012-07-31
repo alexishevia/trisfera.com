@@ -32,6 +32,13 @@ header
 	margin: 0 auto;
 }
 
+.banner-description
+{
+    text-align:center;
+    margin-top:5px;
+    color:#626262;
+}
+
 
 
 
@@ -56,6 +63,11 @@ header
 	min-height:340px;
 	/*height: 350px;*/
 	
+}
+
+.content-title
+{
+    font-weight: bold;
 }
 #section-comunidad .section-v-content
 {

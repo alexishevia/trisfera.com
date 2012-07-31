@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 	<link rel="stylesheet" href="css/bootstrap.css">
+    <!--Es importante que main.css esté en medio de los dos de bootstrap
+     para que el navbar se vea correctamente-->
+    <link rel="stylesheet" href="css/main.css"> 
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="css/main.css">
 	
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -67,14 +69,21 @@
 	<div class="container-fluid">
 				
 		<header>
-				<img class="banner" src="img/banner.png" alt="Trisfera">
+				<a href="index.html">
+                    <img class="banner" src="img/banner.png" alt="Trisfera">
+                </a>
+                <p class="banner-description">Comunidad panameña que promueve el desarrollo web 
+                y móvil mediante herramientas libres</p>
+                
 		</header>
 		
 		<div class="row-fluid">
 			<div id="section-proyectos" class="section-v span4">
 				
 				<div class="section-v-title">
-					<img src="img/section-proyectos_title.png">
+                    <a href="proyectos.html">
+                        <img src="img/section-proyectos_title.png">
+                    </a>
 				</div>
 				
 				<div class="section-v-content">		
@@ -106,7 +115,9 @@
 			<div id="section-guias" class="section-v span4">
 				
 				<div class="section-v-title">
-					<img src="img/section-guias_title.png">
+                    <a href="guias.html">
+                        <img src="img/section-guias_title.png">
+                    </a>
 				</div>
 				
 				<div class="section-v-content">
@@ -138,16 +149,19 @@
             <div id="section-comunidad" class="section-v span4">
 				
 				<div class="section-v-title">
-					<img src="img/section-comunidad_title.png">
+					<a href="comunidad.html">
+                        <img src="img/section-comunidad_title.png">
+                    </a>
 				</div>
 				
 				<div class="section-v-content">
-					<div id="facebook" class="element" >
-						<div class="element-icon">
-						</div>
-						<div class="element-description">Eventos de Trisfera.
-						</div>
-					</div>
+					
+                    <a href="https://www.facebook.com/groups/trisfera/events/">
+                        <div id="facebook" class="element" >
+                            <div class="element-icon"></div>
+                            <p class="element-description">Eventos de Trisfera</p>
+                        </div>
+                    </a>
 					
 					<div id="twitter">
 						<br clear="all">
