@@ -65,22 +65,33 @@ header
 	
 }
 
+.section-acercade-content
+{
+	padding: 15px 15px 10px 15px;
+	margin-bottom:15px;
+	min-height:170px;
+	/*height: 350px;*/
+	
+}
+
+
+
 .content-title
 {
     font-weight: bold;
 }
-#section-comunidad .section-v-content
+#section-comunidad .section-v-content, #section-comunidad .section-acercade-content
 {
 	border:solid 5px #BD9FC4;
 	background:#F2E7F2;
 	
 }
-#section-proyectos .section-v-content
+#section-proyectos .section-v-content, #section-proyectos .section-acercade-content
 {
 	border:solid 5px #AFDDE9;
 	background:#F0F8FB;
 }
-#section-guias .section-v-content
+#section-guias .section-v-content, #section-guias .section-acercade-content
 {
 	border:solid 5px #D7EFC8;
 	background:#F4FAEF;
