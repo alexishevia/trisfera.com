@@ -344,18 +344,6 @@
        gradientUnits="userSpaceOnUse" />
     <filter
        inkscape:collect="always"
-       id="filter4049"
-       x="-0.019846253"
-       width="1.0396925"
-       y="-0.36527606"
-       height="1.7305521">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2.3980889"
-         id="feGaussianBlur4051" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter4121">
       <feGaussianBlur
          inkscape:collect="always"
@@ -546,13 +534,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="358.78459"
+     inkscape:cx="341.10692"
      inkscape:cy="313.42099"
      inkscape:document-units="px"
-     inkscape:current-layer="g4310"
+     inkscape:current-layer="g3189"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="752"
+     inkscape:window-width="1152"
+     inkscape:window-height="672"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -568,7 +556,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1120,6 +1108,69 @@
        sodipodi:type="arc" />
   </g>
   <g
+     style="display:inline"
+     inkscape:label="Letras Comunidad azul"
+     id="g3189"
+     inkscape:groupmode="layer">
+    <flowRoot
+       transform="translate(49.497475,-86.934034)"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#1c5c94;fill-opacity:1;stroke:none;font-family:Tw Cen MT;-inkscape-font-specification:Tw Cen MT Bold"
+       id="flowRoot3191"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3193"><rect
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#1c5c94;fill-opacity:1;font-family:Tw Cen MT;-inkscape-font-specification:Tw Cen MT Bold"
+           y="635.16919"
+           x="58.588848"
+           height="40.339443"
+           width="303.78259"
+           id="rect3195" /></flowRegion><flowPara
+         id="flowPara3197">Comunidad</flowPara></flowRoot>    <path
+       transform="matrix(0.81818182,0,0,0.81818182,88.19116,105.36347)"
+       d="m 304.05592,568.49908 a 11.111678,11.111678 0 1 1 -22.22335,0 11.111678,11.111678 0 1 1 22.22335,0 z"
+       sodipodi:ry="11.111678"
+       sodipodi:rx="11.111678"
+       sodipodi:cy="568.49908"
+       sodipodi:cx="292.94424"
+       id="path3199"
+       style="fill:#1c5c94;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d5e9fa;fill-opacity:1;stroke:none"
+       id="path3201"
+       sodipodi:cx="292.94424"
+       sodipodi:cy="568.49908"
+       sodipodi:rx="11.111678"
+       sodipodi:ry="11.111678"
+       d="m 304.05592,568.49908 a 11.111678,11.111678 0 1 1 -22.22335,0 11.111678,11.111678 0 1 1 22.22335,0 z"
+       transform="matrix(0.81818182,0,0,0.81818182,166.19117,105.36347)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#2887d7;fill-opacity:1;stroke:none"
+       id="path3203"
+       sodipodi:cx="292.94424"
+       sodipodi:cy="568.49908"
+       sodipodi:rx="11.111678"
+       sodipodi:ry="11.111678"
+       d="m 304.05592,568.49908 a 11.111678,11.111678 0 1 1 -22.22335,0 11.111678,11.111678 0 1 1 22.22335,0 z"
+       transform="matrix(0.81818182,0,0,0.81818182,128.19117,105.36347)" />
+    <image
+       y="768.57788"
+       x="368.54834"
+       id="image3267"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAABxCAIAAADOGH8EAAAAA3NCSVQICAjb4U/gAAABbklEQVR4
+nO3dvW3CUBhAUYOyRgZKwwKIIjUDUKROkQGoKRALpMlADOK0mBSR7CI/95zuSbb1pKuve/JbjeM4
+TG3f3m+XL89PA7/A6+njdnk5bJZ8bb1sM/xVwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJ
+HyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8
+lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV81MO3T9zdc8f/YOKjhI8SPkr4qNXX
+26QpMPFRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV8lPBRwkcJHyV81OSU7ePu+FP7YJ7reT/vRRMf
+JXyU8FHCRwkfJXyU8FHCRwkfJXyU8FHCRwkfJXyU8FHCRwkfJXyU8FHCRwkfJXyU8FHCRwkfJXyU
+8FF+Yhxl4qOEjxI+Svgo4aM+AQNNFLbkVVmxAAAAAElFTkSuQmCC
+"
+       height="113"
+       width="168" />
+  </g>
+  <g
      style="display:none"
      inkscape:label="Letras Proyectos"
      id="g3808"
@@ -1454,10 +1505,11 @@
        inkscape:export-ydpi="90" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="element guias"
      id="g4310"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <rect
        style="fill:url(#linearGradient4322);fill-opacity:1;stroke:none"
        id="rect4312"
