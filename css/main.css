@@ -64,6 +64,11 @@ header
 	/*height: 350px;*/
 	
 }
+
+.content-title
+{
+    font-weight: bold;
+}
 #section-comunidad .section-v-content
 {
 	border:solid 5px #BD9FC4;
