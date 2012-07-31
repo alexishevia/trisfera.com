@@ -1,0 +1,13 @@
+@import "main.css";
+
+#section-contacto 
+{
+    margin:0px auto;
+    float:none;
+}
+
+#section-contacto .section-v-content
+{
+    border:solid 5px #AFDDE9;
+	background:#F0F8FB;
+}
