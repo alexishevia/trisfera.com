@@ -196,6 +196,10 @@
     display: inline-block;
     width: auto;
   }
+  
+  .row-hide{
+	display:none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
