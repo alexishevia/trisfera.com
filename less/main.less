@@ -6,14 +6,18 @@
 			border-radius: @radius;
 }
 
-.section-structure (@min-height)
+.section-structure
 {
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
-	min-height:@min-height;
 	border-style: solid;
 	border-width: 5px;
-	
+}
+
+.section-large
+{
+	.section-structure;
+	min-height:315px;
 	ul
 	{
 		padding:0px;
@@ -36,6 +40,12 @@
 		border: 1px solid;
 		.rounded-corners;
 	}
+}
+
+.section-small
+{
+	.section-structure;
+	min-height:170px;
 }
 
 .colors (@border-color,@background-color, @li-hover-bg-color, @u-a-color)
@@ -142,22 +152,39 @@ header
 
 .panel1
 {
-	.section-structure (315px);
+	.section-large;
 	.colors (#AFDDE9, #F0F8FB, #AFDDE9, #4F8B9F);
 }
 
 .panel2
 {
-	.section-structure (315px);
+	.section-large;
 	.colors (#333, #CDCDCD,#333, #333);
 }
 
 .panel3
 {
-	.section-structure (315px);
+	.section-large;
 	.colors (#5A88B1, #D5E9FA,#1C5C94, #1C5C94);
 }
 
+.panel-small1
+{
+	.section-small;
+	.colors (#AFDDE9, #F0F8FB, #AFDDE9, #4F8B9F);
+}
+
+.panel-small2
+{
+	.section-small;
+	.colors (#333, #CDCDCD,#333, #333);
+}
+
+.panel-small3
+{
+	.section-small;
+	.colors (#5A88B1, #D5E9FA,#1C5C94, #1C5C94);
+}
 
 #section-proyectos 
 {
