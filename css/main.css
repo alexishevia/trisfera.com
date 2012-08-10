@@ -157,10 +157,18 @@ header
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
 	min-height:315px;
-	/*height: 350px;*/
 	
 }
 
+/* clase para aumentar la altura minima de los contenedores en la pagina de inicio*/
+
+.section-altura
+{
+
+	min-height:355px;
+	
+	
+}
 
 .section-acercade-content
 {
