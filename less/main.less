@@ -78,9 +78,12 @@
 
 /* STYLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
 
-body 
+@media (min-width: 979px)
 {
-    padding-top:40px; /* Es para offset el navbar */
+	body
+	{
+		padding-top:40px; /* Es para offset el navbar */
+	}
 }
 
 .trisfera-icon
@@ -327,10 +330,11 @@ header
 	background:#CDCDCD;
 }
 
-#section-contacto 
+.centered
 {
-    margin:0px auto;
-    float:none;
+	margin:0px auto !important;
+    float:none !important;
+    display:block !important;
 }
 
 #section-contacto .section-v-content
