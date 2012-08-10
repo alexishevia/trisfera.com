@@ -1,3 +1,29 @@
+/* VARIABLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
+@azul: #1C5C94;
+@azul-claro: #D5E9FA;
+@celeste: #AFDDE9;
+@celeste-claro: #F0F8FB;
+@celeste-oscuro: #4F8B9F;
+@gris: #CDCDCD;
+@negro: #333;
+
+@border-color1: @celeste;
+@border-color2: @negro;
+@border-color3: @azul;
+
+@bg-color1: @celeste-claro;
+@bg-color2: @gris;
+@bg-color3: @azul-claro;
+
+@hover-color1: @celeste;
+@hover-color2: @negro;
+@hover-color3: @azul;
+
+@a-color1: @celeste-oscuro;
+@a-color2: @negro;
+@a-color3: @azul;
+
+
 /* MIXINS * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
 .rounded-corners (@radius:4px)
 {
@@ -10,8 +36,7 @@
 {
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
-	border-style: solid;
-	border-width: 5px;
+	border: 5px solid;
 }
 
 .section-large
@@ -118,9 +143,9 @@ header
     font-size: 15px;
     text-align:center;
     margin-top:8px;
-    color: #AFDDE9/*#8CA7AE*/;
+    color: @celeste /*#8CA7AE*/;
     /*font-weight: bold;*/
-    text-shadow: 1px 1px 5px #E5FBFF/*CBF4FF*/;
+    text-shadow: 1px 1px 5px @celeste-claro/*CBF4FF*/;
     /*border:solid 5px #BD9FC4;
 	background:#F2E7F2;
 
@@ -134,55 +159,55 @@ header
 .panel1
 {
 	.section-large;
-	.colors (#AFDDE9, #F0F8FB, #AFDDE9, #4F8B9F);
+	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
 }
 
 .panel2
 {
 	.section-large;
-	.colors (#333, #CDCDCD,#333, #333);
+	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
 }
 
 .panel3
 {
 	.section-large;
-	.colors (#5A88B1, #D5E9FA,#1C5C94, #1C5C94);
+	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
 }
 
 .panel-medium1
 {
 	.section-medium;
-	.colors (#AFDDE9, #F0F8FB, #AFDDE9, #4F8B9F);
+	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
 }
 
 .panel-medium2
 {
 	.section-medium;
-	.colors (#333, #CDCDCD,#333, #333);
+	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
 }
 
 .panel-medium3
 {
 	.section-medium;
-	.colors (#5A88B1, #D5E9FA,#1C5C94, #1C5C94);
+	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
 }
 
 .panel-small1
 {
 	.section-small;
-	.colors (#AFDDE9, #F0F8FB, #AFDDE9, #4F8B9F);
+	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
 }
 
 .panel-small2
 {
 	.section-small;
-	.colors (#333, #CDCDCD,#333, #333);
+	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
 }
 
 .panel-small3
 {
 	.section-small;
-	.colors (#5A88B1, #D5E9FA,#1C5C94, #1C5C94);
+	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
 }
 
 .section-v-title
@@ -203,15 +228,15 @@ header
 
 .colored-bar1
 {
-	background-color: #AFDDE9;
+	background-color: @celeste;
 }
 
 .colored-bar2
 {
-	background-color: #333;
+	background-color: @negro;
 }
 
 .colored-bar3
 {
-	background-color: #1C5C94;
+	background-color: @azul;
 }
