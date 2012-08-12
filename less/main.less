@@ -1,28 +1,35 @@
 /* VARIABLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
 @azul: #1C5C94;
 @azul-claro: #D5E9FA;
-@celeste: #AFDDE9;
+@celeste: #AFDDE9; 
 @celeste-claro: #F0F8FB;
 @celeste-oscuro: #4F8B9F;
 @gris: #CDCDCD;
 @negro: #333;
 
+
+/* Colores Sección 1 */
 @border-color1: @celeste;
-@border-color2: @negro;
-@border-color3: @azul;
-
 @bg-color1: @celeste-claro;
-@bg-color2: @gris;
-@bg-color3: @azul-claro;
-
 @hover-color1: @celeste;
+@font-color1: @celeste-oscuro;
+
+/* Colores Sección 2 */
+@border-color2: @negro;
+@bg-color2: @gris;
 @hover-color2: @negro;
+@font-color2: @negro;
+
+/* Colores Sección 3 */
+@border-color3: @azul;
+@bg-color3: @azul-claro;
 @hover-color3: @azul;
+@font-color3: @azul;
 
-@a-color1: @celeste-oscuro;
-@a-color2: @negro;
-@a-color3: @azul;
 
+@height-large: 315px;
+@height-medium: 248px;
+@height-small: 170px;
 
 /* MIXINS * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
 .rounded-corners (@radius:4px)
@@ -32,17 +39,24 @@
 			border-radius: @radius;
 }
 
-.section-structure
+
+/* Estructura básica de todos los paneles */
+.panel-structure
 {
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
 	border: 5px solid;
 }
 
-.section-large
+.panel-structure (@min-height)
 {
-	.section-structure;
-	min-height:315px;
+	.panel-structure;
+	min-height:@min-height;
+}
+
+/* Cuando sea large le agregamos los estilos de los paneles principales */
+.panel-structure (@min-height) when (@min-height = @height-large) 
+{	
 	ul
 	{
 		padding:0px;
@@ -65,25 +79,16 @@
 		border: 1px solid;
 		.rounded-corners;
 	}
+	
 }
 
-.section-medium
-{
-	.section-structure;
-	min-height:248px;
-}
 
-.section-small
-{
-	.section-structure;
-	min-height:170px;
-}
-
-.colors (@border-color, @background-color, @li-hover-bg-color, @u-a-color)
+.panel-large-colors (@border-color, @background-color, @li-hover-bg-color, @font-color)
 {
 	border-color: @border-color;
 	background-color:@background-color;
-
+	color: @font-color;	
+	
 	li 
 	{
 		border-color: white;
@@ -96,10 +101,18 @@
 	
 	ul a
 	{
-		color: @u-a-color;	
+		color: @font-color;	
 	}
 
 }
+
+.panel-colors (@border-color, @background-color, @font-color)
+{
+	border-color: @border-color;
+	background-color:@background-color;
+	color: @font-color;	
+}
+
 
 
 /* STYLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
@@ -140,79 +153,84 @@ header
 	
 	.banner-description
 	{
-    font-size: 15px;
-    text-align:center;
-    margin-top:8px;
-    color: @celeste /*#8CA7AE*/;
-    /*font-weight: bold;*/
-    text-shadow: 1px 1px 5px @celeste-claro/*CBF4FF*/;
-    /*border:solid 5px #BD9FC4;
-	background:#F2E7F2;
-
-	border:solid 5px #AFDDE9;
-	background:#F0F8FB;
-
-	*/
+		font-size: 15px;
+		text-align:center;
+		margin-top:8px;
+		color: @celeste /*#8CA7AE*/;
+		/*font-weight: bold;*/
+		text-shadow: 1px 1px 5px @celeste-claro/*CBF4FF*/;
+		/*border:solid 5px #BD9FC4;
+		background:#F2E7F2;
+	
+		border:solid 5px #AFDDE9;
+		background:#F0F8FB;
+	
+		*/
 	}
 }
 
-.panel1
+// Se usan en index.html
+.panel-large1
 {
-	.section-large;
-	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
+	.panel-structure(@height-large);
+	.panel-large-colors (@border-color1, @bg-color1, @hover-color1, @font-color1);
 }
 
-.panel2
+.panel-large2
 {
-	.section-large;
-	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
+	.panel-structure(@height-large);
+	.panel-large-colors (@border-color2, @bg-color2, @hover-color2, @font-color2);
 }
 
-.panel3
+.panel-large3
 {
-	.section-large;
-	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
+	.panel-structure(@height-large);
+	.panel-large-colors (@border-color3, @bg-color3, @hover-color3, @font-color3);
 }
 
+// Se usan en las páginas de las secciones: proyectos.html, guias.html y comunidad.html
 .panel-medium1
 {
-	.section-medium;
-	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
+	.panel-structure(@height-medium);
+	.panel-colors (@border-color1, @bg-color1, @font-color1);
 }
 
 .panel-medium2
 {
-	.section-medium;
-	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
+	.panel-structure(@height-medium);
+	.panel-colors (@border-color2, @bg-color2, @font-color2);
 }
 
 .panel-medium3
 {
-	.section-medium;
-	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
+	.panel-structure(@height-medium);
+	.panel-colors (@border-color3, @bg-color3, @font-color3);
 }
 
+// Se usan en acercade.html
 .panel-small1
 {
-	.section-small;
-	.colors (@border-color1, @bg-color1, @hover-color1, @a-color1);
+	.panel-structure(@height-small);
+	.panel-colors (@border-color1, @bg-color1, @font-color1);
 }
 
 .panel-small2
 {
-	.section-small;
-	.colors (@border-color2, @bg-color2, @hover-color2, @a-color2);
+	.panel-structure(@height-small);
+	.panel-colors (@border-color2, @bg-color2, @font-color2);
 }
 
 .panel-small3
 {
-	.section-small;
-	.colors (@border-color3, @bg-color3, @hover-color3, @a-color3);
+	.panel-structure(@height-small);
+	.panel-colors (@border-color3, @bg-color3, @font-color3);
 }
 
-.section-v-title
+.panel-header
 {	
 	min-height:35px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .content-title
