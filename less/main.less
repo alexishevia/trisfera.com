@@ -1,4 +1,4 @@
-/* VARIABLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
+// VARIABLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @azul: #1C5C94;
 @azul-claro: #D5E9FA;
 @celeste: #AFDDE9; 
@@ -8,19 +8,19 @@
 @negro: #333;
 
 
-/* Colores Sección 1 */
+// Colores Sección 1 * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @border-color1: @celeste;
 @bg-color1: @celeste-claro;
 @hover-color1: @celeste;
 @font-color1: @celeste-oscuro;
 
-/* Colores Sección 2 */
+// Colores Sección 2 * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @border-color2: @negro;
 @bg-color2: @gris;
 @hover-color2: @negro;
 @font-color2: @negro;
 
-/* Colores Sección 3 */
+// Colores Sección 3 * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @border-color3: @azul;
 @bg-color3: @azul-claro;
 @hover-color3: @azul;
@@ -31,7 +31,7 @@
 @height-medium: 248px;
 @height-small: 170px;
 
-/* MIXINS * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
+// MIXINS * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 .rounded-corners (@radius:4px)
 {
 	-webkit-border-radius: @radius;
@@ -54,7 +54,7 @@
 	min-height:@min-height;
 }
 
-/* Cuando sea large le agregamos los estilos de los paneles principales */
+//Cuando sea large le agregamos los estilos de los paneles principales
 .panel-structure (@min-height) when (@min-height = @height-large) 
 {	
 	ul
@@ -115,7 +115,7 @@
 
 
 
-/* STYLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - */
+// STYLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 
 .centered
 {
