@@ -15,6 +15,8 @@ En qué está hecha?
 
 Para darle estructura y estilo a la página estamos utilizando [Bootstrap de Twitter](https://github.com/twitter/bootstrap/)
 
+Para trabajar el CSS de una forma más sencilla y estructurada estamos utilizando [LESS](http://lesscss.org/)
+
 ### Widgets o Scripts Adicionales
 
 El pajarito de twitter lo pueden encontrar [aquí](http://www.way2blogging.org/2011/04/add-animated-flying-twitter-bird-widget.html)
@@ -38,9 +40,14 @@ Estos son los pasos a aseguir:
 
 Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
 
+Tienes alguna duda de cómo funciona algo en este proyecto?
+----------------------------------------------------------
+
+Para contactarnos lo puedes hacer por medio de [twitter](https://twitter.com/Trisfera) o por [facebook](https://www.facebook.com/groups/trisfera/)
+
 Tienes algún Bug o Feature Request?
 -----------------------------------
 
 Por favor añádelo en los [issues del repositorio] (https://github.com/Trisfera/PaginaTrisfera/issues).
-Si tienes dudas de cómo hacer esto, o si quieres preguntarnos algo lo puedes hacer por medio de [twitter](https://twitter.com/Trisfera) o por [facebook](https://www.facebook.com/groups/trisfera/)
+
 
