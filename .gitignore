@@ -2,3 +2,4 @@
 *~
 production*
 .s3cmdignore
+node_modules
