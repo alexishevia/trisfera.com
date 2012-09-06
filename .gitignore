@@ -1,2 +1,5 @@
 .DS_Store
 *~
+production*
+.s3cmdignore
+node_modules
