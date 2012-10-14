@@ -1,0 +1,34 @@
+#example p {
+ display:none;
+}
+#div-1 {
+ position:relative;
+ background-color:#eee;
+}
+#div-1a {
+ position:absolute;
+ top:20px;
+ left:10px;
+ width:40px;
+ height:40px;
+ background-color:green;
+}
+#div-1b {
+ position:absolute;
+ top:20px;
+ right:10px;
+ width:40px;
+ height:40px;
+ background-color:green;
+}
+#div-1c {
+ position:absolute;
+ top:120px;
+ left:20px;
+ width:360px;
+ height:20px;
+ background-color:pink;
+}
+#div-0 {
+ background-color:brown;
+}

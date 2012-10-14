@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position y Float</title>
+  <meta charset="utf-8" />
+  <script type="text/javascript">
+    var tabberOptions = {
+      'onClick':function(argsObj){
+        tab = parseInt(argsObj.index) + 1;
+        document.getElementById('cssexamples').setAttribute('href', tab + '.css');
+      }
+    };
+  </script>
+  <script type="text/javascript" src="tabber.js"></script>
+  <link rel="stylesheet" href="example.css" TYPE="text/css" MEDIA="screen">
+  <style type="text/css" media="screen">
+    #example {
+     float:right;
+    }
+    #example div {
+    }
+    #div-0, #div-2 {
+     background-color:#88d;
+     color:#000;
+    }
+    #div-1 {
+     width:400px;
+     background-color:#000;
+     color:#fff;
+    }
+    #div-1-padding {
+     padding:10px;
+    }
+    #div-1a {
+     background-color:#d33;
+     color:#fff;
+    }
+    #div-1b {
+     background-color:#3d3;
+     color:#fff;
+    }
+    #div-1c {
+     background-color:#33d;
+     color:#fff;
+    }
+    #example div p {
+     margin:0 .25em;
+     padding:.25em 0;
+    }
+    #description {
+     float:left;
+     width:40%;
+    }
+    pre {
+     padding:1em;
+     border:1px dashed #aaa;
+     background:#fafafa;
+    }
+    p {
+     margin:0.5em 0;
+    }
+    h3 {
+     color:#999;
+    }
+    .job {
+    margin-top:1em;
+    border:1px solid #aaa;
+    padding:1em;
+    background:#ddd;
+    }
+    .tabbertab h1 {
+      font-size: 1.2em;
+    }
+    #introduction h1 {
+      font-size: 1.5em;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    #introduction {
+      margin-bottom: 2em;
+    }
+  </style>
+  <link id="cssexamples" rel="stylesheet" href="1.css"/>
+</head>
+<body>
+
+  <div id="introduction">
+    <h1>Aprende Posicionamiento con CSS en 10 Pasos</h1>
+    <p>Este tutorial explica las diferentes propiedades para posicionamiento disponible en CSS: position:static, position:relative, position:absolute y float.</p>
+  </div>
+  
+  <div id="description" class="tabber">
+
+    <div class="tabbertab">
+      <h2>1</h2>
+      <h1>1. position:static</h1>
+      <p>El valor predeterminado para todos los elementos es <em>position:static</em>, que posiciona al elemento según el lugar donde fue definido en el HTML.</p>
+      <p>Por lo general no hay necesidad de definir <em>position:static</em>, a menos que querramos caerle encima a alguna regla anterior que haya modificado el posicionamiento.</p>
+      <pre>
+#div-1 {
+  position:static;
+}
+      </pre>
+    </div>
+
+    <div class="tabbertab">
+      <h2>2</h2>
+      <h1>2. position:relative</h1>
+      <p>Si le definimos <em>position:relative</em> a un elemento, entonces podemos utilizar <em>top</em>, <em>bottom</em>, <em>left</em> y <em>right</em> para mover el elemento con relación a la posición en la que aparecería normalmente en el documento.</p>
+      <p>Movamos el div-1 20 pixeles hacia abajo y 40 pixeles hacia la izquierda:</p>
+      <pre>
+#div-1 {
+ position:relative;
+ top:20px;
+ left:-40px;
+}
+      </pre>
+      <p>Fíjate que en el lugar donde hubiese aparecido el div-1 ahora hay un espacio en blanco. El elemento siguiente (div-2) no cambió de posición porque ese espacio en blanco le sigue perteneciendo al div-1, aunque lo hayamos movido.</p>
+      <p>Parecería que <em>position:relative</em> no es muy útil, pero tendrá una tarea muy importante más adelante.</p>
+    </div>
+
+    <div class="tabbertab">
+      <h2>3</h2>
+      <h1>3. position:absolute</h1>
+      <p>Cuando utilizamos <em>position:absolute</em>, el elemento es removido del documento y colocado exactamente donde nosotros queremos.</p>
+      <p>Movamos el div-1a a la esquina superior derecha de la página:</p>
+      <pre>
+#div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+      </pre>
+      <p>Fíjate que esta vez, como el div-1a fue removido del documento, los otros elementos se posicionaron de manera distinta: div-1b, div-1c y div-2 se movieron hacia arriba para ocupar el espacio que antes era de div-1a.</p>
+      <p>También fíjate que el div-1a fue colocado en la esquina superior derecha de la página. Es divertido poder colocar elementos directamente en la página, pero usualmente no es de gran utilidad.</p>
+      <p>Lo que realmente queremos hacer es colocar el div-1a en la esquina superior del div-1. Aquí es donde <em>position:relative</em> vuelve a tener importancia.</p>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>4</h2>
+      <h1>4. position:relative + position:absolute</h1>
+      <p>Si le definimos <em>position:relative</em> al div-1, cualquier elemento que le coloquemos dentro se posicionará con relación a div-1.</p>
+      <p>Si luego le definimos <em>position:absolute</em> al div-1a, podemos colocarlo en la esquina superior derecha del div-1:</p>
+      <pre>
+#div-1 {
+ position:relative;
+}
+#div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+      </pre>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>5</h2>
+      <h1>5. dos columnas absolutas</h1>
+      <p>¡Ahora podemos crear un layout de dos columnas utilizando posicionamiento relativo y absoluto!</p>
+      <pre>
+#div-1 {
+ position:relative;
+}
+#div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+#div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+ width:200px;
+}
+      </pre>
+      <p>Una ventaja de utilizar posicionamiento absoluto es que podemos colocar los elementos en cualquier posición en la página, sin importar el orden en el que aparezcan en el HTML. Por ejemplo, decidimos posicionar div-1b antes que div-1a.</p>
+      <p>Un momento, ¿qué sucedió con los demás elementos? Están siendo ocultados por los elementos de posición absoluta. ¿Qué podemos hacer al respecto?</p>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>6</h2>
+      <h1>6. dos columnas altura absoluta</h1>
+      <p>Una opción sería definir una altura fija para los elementos.</p>
+      <pre>
+#div-1 {
+ position:relative;
+ height:250px;
+}
+#div-1a {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+#div-1b {
+ position:absolute;
+ top:0;
+ left:0;
+ width:200px;
+}
+      </pre>
+      <p>Sin embargo, esta no es una solución viable para la mayoría de los diseños, ya que por lo general no sabemos de antemano cuánto texto tendrá cada elemento, ni cuál será el tamaño de fuente a utilizar.</p>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>7</h2>
+      <h1>7. float</h1>
+      <p>Para columnas de altura variable, el posicionamiento absoluto no funciona, asi que debemos buscar otra alternativa.</p>
+      <p>Podemos "flotar" un elemento para empujarlo lo más que se pueda hacia la derecha o izquierda, permitiendo así que el texto rodee al elemento. Esta técnica se utiliza normalmente con imágenes, pero también se puede utilizar para crear layouts complejos.</p>
+      <pre>
+#div-1a {
+ float:left;
+ width:200px;
+}
+      </pre>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>8</h2>
+    <h1>8. columnas flotantes</h1>
+    <p>Si flotamos una columna hacia la izquierda y la otra hacia la derecha, entonces quedarán una alado de la otra.</p>
+    <pre>
+#div-1a {
+ float:left;
+ width:150px;
+}
+#div-1b {
+ float:left;
+ width:150px;
+}
+    </pre>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>9</h2>
+      <h1>9. columnas flotantes con clear</h1>
+      <p>Después de los elementos flotantes podemos añadir un "clear" para empujar el resto del contenido hacia abajo.</p>
+      <pre>
+#div-1a {
+ float:left;
+ width:190px;
+}
+#div-1b {
+ float:left;
+ width:190px;
+}
+#div-1c {
+ clear:both;
+}
+      </pre>
+    </div>
+    
+    <div class="tabbertab">
+      <h2>10</h2>
+      <h1>10. Aclaraciones</h1>
+      <p>Estos son ejemplos muy sencillos, que no deben generar errores o bugs en Internet Explorer (que tiene <em>muchos</em> bugs).
+      <p>Esta es una traducción a español del artículo:<br>
+      <a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Learn CSS Positioning in Ten Steps</a></p>
+      <p>Ya que estás aquí, tal vez te interese consultar:</p>
+      <ul>
+      <li><a href="http://www.barelyfitz.com/projects/">BarelyFitz Designs Open-Source Software Projects</a></li>
+      <li><a href="http://www.barelyfitz.com/screencast/">BarelyFitz Designs Screencasts</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="example">
+
+    <div id="div-0">
+      <p>id = div-0</p>
+    </div>
+
+    <div id="div-1">
+      <div id="div-1-padding">
+
+        <p>id = div-1</p>
+
+        <div id="div-1a">
+          <p>id = div-1a</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium dui sit amet felis. Integer sit amet diam. Phasellus ultrices viverra velit.</p>
+        </div>
+
+        <div id="div-1b">
+          <p>id = div-1b</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium dui sit amet felis. Integer sit amet diam. Phasellus ultrices viverra velit. Nam mattis, arcu ut bibendum commodo, magna nisi tincidunt tortor, quis accumsan augue ipsum id lorem.</p>
+        </div>
+
+        <div id="div-1c">
+          <p>id = div-1c</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="div-2">
+      <p>id = div-2</p>
+    </div>
+
+  </div>
+</body>
+</html>
