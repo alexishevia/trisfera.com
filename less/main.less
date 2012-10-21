@@ -1,10 +1,11 @@
 // VARIABLES * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @azul: #1C5C94;
 @azul-claro: #D5E9FA;
-@celeste: #AFDDE9; 
+@celeste: #AFDDE9;
 @celeste-claro: #F0F8FB;
 @celeste-oscuro: #4F8B9F;
 @gris: #CDCDCD;
+@gris-oscuro: #5A5A5A;
 @negro: #333;
 
 
@@ -55,20 +56,20 @@
 }
 
 //Cuando sea large le agregamos los estilos de los paneles principales
-.panel-structure (@min-height) when (@min-height = @height-large) 
-{	
+.panel-structure (@min-height) when (@min-height = @height-large)
+{
 	ul
 	{
 		padding:0px;
 		margin:0px;
-		
+
 		a
 		{
 			font-size:14px;
-			&:hover{ text-decoration:none; }	
+			&:hover{ text-decoration:none; }
 		}
 	}
-	
+
 	li
 	{
 		display: block;
@@ -79,7 +80,7 @@
 		border: 1px solid;
 		.rounded-corners;
 	}
-	
+
 }
 
 
@@ -87,9 +88,9 @@
 {
 	border-color: @border-color;
 	background-color:@background-color;
-	color: @font-color;	
-	
-	li 
+	color: @font-color;
+
+	li
 	{
 		border-color: white;
 		&:hover
@@ -98,10 +99,10 @@
 			color: white;
 		}
 	}
-	
+
 	ul a
 	{
-		color: @font-color;	
+		color: @font-color;
 	}
 
 }
@@ -110,7 +111,7 @@
 {
 	border-color: @border-color;
 	background-color:@background-color;
-	color: @font-color;	
+	color: @font-color;
 }
 
 
@@ -141,22 +142,22 @@
     margin-top:10px;
 }
 
-header 
+header
 {
     padding-top:20px;
     padding-bottom:20px;
-    
-    .banner 
+
+    .banner
 	{
 		.centered;
-	} 
-	
+	}
+
 	.banner-description
 	{
 		font-size: 15px;
 		text-align:center;
 		margin-top:8px;
-		color: @celeste;
+		color: @celeste-oscuro;
 		text-shadow: 1px 1px 5px @celeste-claro;
 	}
 }
@@ -166,6 +167,9 @@ header
 {
 	.panel-structure(@height-large);
 	.panel-large-colors (@border-color1, @bg-color1, @hover-color1, @font-color1);
+	ul a li {
+		border-color: @celeste;
+	}
 }
 
 .panel-large2
@@ -219,10 +223,11 @@ header
 }
 
 .panel-header
-{	
-	min-height:35px;
+{
 	font-size: 18px;
 	font-weight: bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.3em;
 }
 
 .content-title
@@ -236,7 +241,7 @@ header
 	display: block;
 }
 
-// Son las barras de colores al final de cada página 
+// Son las barras de colores al final de cada página
 .colored-bar1
 {
 	background-color: @celeste;
@@ -250,4 +255,8 @@ header
 .colored-bar3
 {
 	background-color: @azul;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+	background-color: @gris-oscuro;
 }
