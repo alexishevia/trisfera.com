@@ -14,9 +14,6 @@ Para darle estructura y estilo a la página estamos utilizando [Bootstrap de Twi
 
 Para trabajar el CSS de una forma más sencilla y estructurada estamos utilizando [LESS](http://lesscss.org/)
 
-### Widgets o Scripts Adicionales
-El profile widget para twitter que presenta los últimos tweets lo pueden encontrar [aquí](https://twitter.com/about/resources/widgets/widget_profile)
-
 ¿Quieres correr este proyecto en tu máquina?
 -------------------------------------------
 Este proyecto es una página web sencilla. Solo tienes que darle doble click al archivo index.html que se encuentra en la carpeta raíz del proyecto.
