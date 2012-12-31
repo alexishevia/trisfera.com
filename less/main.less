@@ -7,7 +7,7 @@
 @gris: #CDCDCD;
 @gris-oscuro: #5A5A5A;
 @negro: #333;
-
+@height-small: 170px;
 
 // Colores Sección 1 * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @border-color1: @celeste;
@@ -28,83 +28,16 @@
 @font-color3: @azul;
 
 
-@height-large: 355px;
-@height-medium: 288px;
-@height-small: 170px;
-
-// MIXINS * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
-.rounded-corners (@radius:4px)
-{
-	-webkit-border-radius: @radius;
-		-moz-border-radius: @radius;
-			border-radius: @radius;
-}
-
-
 /* Estructura básica de todos los paneles */
 .panel-structure
 {
 	padding: 15px 15px 10px 15px;
 	margin-bottom:15px;
 	border: 5px solid;
-}
 
-.panel-structure (@min-height)
-{
-	.panel-structure;
-	min-height:@min-height;
-}
-
-//Cuando sea large le agregamos los estilos de los paneles principales
-.panel-structure (@min-height) when (@min-height = @height-large)
-{
-	ul
-	{
-		padding:0px;
-		margin:0px;
-
-		a
-		{
-			font-size:14px;
-			&:hover{ text-decoration:none; }
-		}
+	@media (min-width: 768px) {
+		min-height:@height-small;
 	}
-
-	li
-	{
-		display: block;
-		text-decoration: none;
-		padding:5px 5px 5px 15px;
-		margin: 0px 0px 10px 0px;
-		background:transparent;
-		border: 1px solid;
-		.rounded-corners;
-	}
-
-}
-
-
-.panel-large-colors (@border-color, @background-color, @li-hover-bg-color, @font-color)
-{
-	border-color: @border-color;
-	background-color:@background-color;
-	color: @font-color;
-
-	li
-	{
-		border-color: white;
-		&:hover
-		{
-			background-color:@li-hover-bg-color;
-			color: white;
-		}
-	}
-
-	ul a
-	{
-		color: @font-color;
-	}
-
 }
 
 .panel-colors (@border-color, @background-color, @font-color)
@@ -122,32 +55,16 @@
 {
 	margin-left: auto !important;
 	margin-right: auto !important;
-    float:none !important;
-    display:block !important;
-}
-
-@media (min-width: 979px)
-{
-	body
-	{
-		padding-top:40px; /* Es para offset el navbar */
-	}
-}
-
-.trisfera-icon
-{
-    position:absolute;
-    left:50%;
-    top:0%;
-    margin-top:10px;
+  float:none !important;
+  display:block !important;
 }
 
 header
 {
-    padding-top:20px;
-    padding-bottom:20px;
+  padding-top:20px;
+  padding-bottom:20px;
 
-    .banner
+  .banner
 	{
 		.centered;
 	}
@@ -162,63 +79,21 @@ header
 	}
 }
 
-// Se usan en index.html
-.panel-large1
-{
-	.panel-structure(@height-large);
-	.panel-large-colors (@border-color1, @bg-color1, @hover-color1, @font-color1);
-	ul a li {
-		border-color: @celeste;
-	}
-}
-
-.panel-large2
-{
-	.panel-structure(@height-large);
-	.panel-large-colors (@border-color2, @bg-color2, @hover-color2, @font-color2);
-}
-
-.panel-large3
-{
-	.panel-structure(@height-large);
-	.panel-large-colors (@border-color3, @bg-color3, @hover-color3, @font-color3);
-}
-
-// Se usan en las páginas de las secciones: proyectos.html, guias.html y comunidad.html
-.panel-medium1
-{
-	.panel-structure(@height-medium);
-	.panel-colors (@border-color1, @bg-color1, @font-color1);
-}
-
-.panel-medium2
-{
-	.panel-structure(@height-medium);
-	.panel-colors (@border-color2, @bg-color2, @font-color2);
-}
-
-.panel-medium3
-{
-	.panel-structure(@height-medium);
-	.panel-colors (@border-color3, @bg-color3, @font-color3);
-}
-
-// Se usan en acercade.html
 .panel-small1
 {
-	.panel-structure(@height-small);
+	.panel-structure;
 	.panel-colors (@border-color1, @bg-color1, @font-color1);
 }
 
 .panel-small2
 {
-	.panel-structure(@height-small);
+	.panel-structure;
 	.panel-colors (@border-color2, @bg-color2, @font-color2);
 }
 
 .panel-small3
 {
-	.panel-structure(@height-small);
+	.panel-structure;
 	.panel-colors (@border-color3, @bg-color3, @font-color3);
 }
 
@@ -230,18 +105,7 @@ header
 	padding-bottom: 0.3em;
 }
 
-.content-title
-{
-    font-weight: bold;
-}
-
-.pet-bottom
-{
-	margin: auto;
-	display: block;
-}
-
-// Son las barras de colores al final de cada página
+// Son las barras de colores al final de la página
 .colored-bar1
 {
 	background-color: @celeste;
@@ -255,13 +119,4 @@ header
 .colored-bar3
 {
 	background-color: @azul;
-}
-
-.navbar .nav .active > a, .navbar .nav .active > a:hover {
-	background-color: @gris-oscuro;
-}
-
-#summerCamp {
-	text-align: center;
-	padding-bottom: 1em;
 }

@@ -45,4 +45,4 @@ Para contactarnos lo puedes hacer por medio de [twitter](https://twitter.com/Tri
 
 ¿Tienes algún Bug o Feature Request?
 -----------------------------------
-Por favor añádelo en los [issues del repositorio] (https://github.com/Trisfera/PaginaTrisfera/issues).
+Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/PaginaTrisfera/issues).
