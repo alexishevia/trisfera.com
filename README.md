@@ -14,6 +14,12 @@ Para darle estructura y estilo a la página estamos utilizando [Bootstrap de Twi
 
 Para trabajar el CSS de una forma más sencilla y estructurada estamos utilizando [LESS](http://lesscss.org/)
 
+Si vas a trabajar en el sitio, no edites el archivo `css/main.css` directamente. En cambio, edita el archivo `css/main.less` y luego corre los siguientes comandos (necesitas tener node.js instalado):
+```
+npm install -g less
+lessc css/main.less css/main.css
+```
+
 ¿Quieres correr este proyecto en tu máquina?
 -------------------------------------------
 Este proyecto es una página web sencilla. Solo tienes que darle doble click al archivo index.html que se encuentra en la carpeta raíz del proyecto.
@@ -41,7 +47,7 @@ Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://githu
 
 ¿Tienes alguna duda de cómo funciona algo en este proyecto?
 ----------------------------------------------------------
-Para contactarnos lo puedes hacer por medio de [twitter](https://twitter.com/Trisfera) o por [facebook](https://www.facebook.com/groups/trisfera/)
+Para contactarnos por medio de [nuestro grupo de facebook](https://www.facebook.com/groups/trisfera/)
 
 ¿Tienes algún Bug o Feature Request?
 -----------------------------------

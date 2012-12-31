@@ -1,0 +1,92 @@
+body,
+p {
+  font-size: 14px;
+}
+/* Estructura básica de todos los paneles */
+.panel-structure {
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
+  border: 5px solid;
+}
+@media (min-width: 768px) {
+  .panel-structure {
+    min-height: 125px;
+  }
+}
+.centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+  display: block !important;
+}
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .banner {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+  display: block !important;
+}
+header .banner-description {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 8px;
+  color: #4f8b9f;
+  text-shadow: 1px 1px 5px #f0f8fb;
+}
+.panel-small1 {
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
+  border: 5px solid;
+  border-color: #afdde9;
+  background-color: #f0f8fb;
+  color: #4f8b9f;
+}
+@media (min-width: 768px) {
+  .panel-small1 {
+    min-height: 125px;
+  }
+}
+.panel-small2 {
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
+  border: 5px solid;
+  border-color: #333333;
+  background-color: #cdcdcd;
+  color: #333333;
+}
+@media (min-width: 768px) {
+  .panel-small2 {
+    min-height: 125px;
+  }
+}
+.panel-small3 {
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
+  border: 5px solid;
+  border-color: #1c5c94;
+  background-color: #d5e9fa;
+  color: #1c5c94;
+}
+@media (min-width: 768px) {
+  .panel-small3 {
+    min-height: 125px;
+  }
+}
+.panel-header {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+}
+.colored-bar1 {
+  background-color: #afdde9;
+}
+.colored-bar2 {
+  background-color: #333333;
+}
+.colored-bar3 {
+  background-color: #1c5c94;
+}
