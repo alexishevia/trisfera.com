@@ -7,7 +7,8 @@
 @gris: #CDCDCD;
 @gris-oscuro: #5A5A5A;
 @negro: #333;
-@height-small: 170px;
+
+@min-height: 125px;
 
 // Colores Sección 1 * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 @border-color1: @celeste;
@@ -27,6 +28,9 @@
 @hover-color3: @azul;
 @font-color3: @azul;
 
+body, p {
+	font-size: 14px;
+}
 
 /* Estructura básica de todos los paneles */
 .panel-structure
@@ -36,7 +40,7 @@
 	border: 5px solid;
 
 	@media (min-width: 768px) {
-		min-height:@height-small;
+		min-height:@min-height;
 	}
 }
 
