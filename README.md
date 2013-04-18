@@ -1,6 +1,6 @@
 Página de Trisfera
 ==================
-Esta es la nueva página de Trisfera para el 2012.
+Este es el código fuente para la página web de Trisfera.
 
 ¿Qué queremos lograr?
 ------------------
@@ -24,16 +24,6 @@ lessc css/main.less css/main.css
 -------------------------------------------
 Este proyecto es una página web sencilla. Solo tienes que darle doble click al archivo index.html que se encuentra en la carpeta raíz del proyecto.
 
-**Importante**: Si tratas de abrir index.html usando Chrome, te va a aparecer este error en la consola:
-```
-XMLHttpRequest cannot load file://Projects/PaginaTrisfera/less/main.less. Cross origin requests are only supported for HTTP.
-```
-
-Hay dos opciones:
-
-1. Abrirlo desde Firefox
-2. Correr la aplicación desde un webserver. En [este tutorial](http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python) puedes ver cómo correr un webserver fácilmente usando Python.
-
 ¿Quieres colaborar?
 ------------------
 Estos son los pasos a aseguir:
@@ -43,12 +33,10 @@ Estos son los pasos a aseguir:
 - Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
 - Haz un Pull Request para integrar tus cambios a este repositorio
 
-Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
-
 ¿Tienes alguna duda de cómo funciona algo en este proyecto?
 ----------------------------------------------------------
 Para contactarnos por medio de [nuestro grupo de facebook](https://www.facebook.com/groups/trisfera/)
 
 ¿Tienes algún Bug o Feature Request?
 -----------------------------------
-Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/PaginaTrisfera/issues).
+Por favor añádelo en los [issues del repositorio](https://github.com/alexishevia/trisfera.com/issues).
