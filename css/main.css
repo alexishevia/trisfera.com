@@ -1,5 +1,4 @@
-body,
-p {
+body, p {
   font-size: 14px;
 }
 /* Estructura básica de todos los paneles */
@@ -9,9 +8,7 @@ p {
   border: 5px solid;
 }
 @media (min-width: 768px) {
-  .panel-structure {
-    min-height: 125px;
-  }
+  min-height: 125px;
 }
 .centered {
   margin-left: auto !important;
@@ -45,9 +42,7 @@ header .banner-description {
   color: #4f8b9f;
 }
 @media (min-width: 768px) {
-  .panel-small1 {
-    min-height: 125px;
-  }
+  min-height: 125px;
 }
 .panel-small2 {
   padding: 15px 15px 10px 15px;
@@ -58,9 +53,7 @@ header .banner-description {
   color: #333333;
 }
 @media (min-width: 768px) {
-  .panel-small2 {
-    min-height: 125px;
-  }
+  min-height: 125px;
 }
 .panel-small3 {
   padding: 15px 15px 10px 15px;
@@ -71,9 +64,7 @@ header .banner-description {
   color: #1c5c94;
 }
 @media (min-width: 768px) {
-  .panel-small3 {
-    min-height: 125px;
-  }
+  min-height: 125px;
 }
 .panel-header {
   font-size: 18px;
@@ -89,4 +80,9 @@ header .banner-description {
 }
 .colored-bar3 {
   background-color: #1c5c94;
+}
+.trisferaconf img {
+  margin: auto;
+  display: block;
+  padding-bottom: 2rem;
 }
