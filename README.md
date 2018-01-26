@@ -40,3 +40,7 @@ Para contactarnos por medio de [nuestro grupo de facebook](https://www.facebook.
 ¿Tienes algún Bug o Feature Request?
 -----------------------------------
 Por favor añádelo en los [issues del repositorio](https://github.com/alexishevia/trisfera.com/issues).
+
+Deployment
+----------
+Este sitio utiliza una integración entre github y Netlify para realizar deploys automáticos.
